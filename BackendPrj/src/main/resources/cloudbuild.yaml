@@ -5,4 +5,4 @@ steps:
       - '-c'
       - |
         set -x && \
-        gcloud compute ssh backend-instance --zone=us-central1-a --command='/bin/sh /home/ampelishko/pull.sh'
+        gcloud compute ssh backend-instance
